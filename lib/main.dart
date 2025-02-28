@@ -12,7 +12,6 @@ Future<void> main() async {
   runApp(const MyApp());
 }
 
-/// MyApp 클래스는 앱의 최상위 위젯입니다.
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

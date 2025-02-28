@@ -2,16 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/cat_controller.dart';
 
-/// HomeView는 GetView<CatController>를 상속받아
-/// 내부에서 자동으로 컨트롤러를 가져옵니다.
-/// 사용자가 고양이 품종을 검색하고 결과를 확인하며 즐겨찾기에 추가할 수 있는 화면입니다.
 class HomeView extends GetView<CatController> {
-  // 생성자: GetView를 상속받으면, super.key만 사용해도 됩니다.
   const HomeView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    // TextEditingController는 사용자가 입력한 텍스트를 관리합니다.
     final TextEditingController searchController = TextEditingController();
 
     return Scaffold(
