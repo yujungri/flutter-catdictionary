@@ -6,7 +6,7 @@ import 'views/home_view.dart';
 import 'views/favorites_view.dart';
 
 Future<void> main() async {
-  // 환경 변수(.env) 파일 로드 (API 키가 필요한 경우)
+  // 환경 변수(.env) 파일
   await dotenv.load(fileName: ".env");
 
   runApp(const MyApp());

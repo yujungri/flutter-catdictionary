@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'controllers/cat_controller.dart';
 
-/// 앱 실행 시 필요한 의존성을 등록
+/// 앱 실행 시 필요한 의존성
 class AppBindings extends Bindings {
   @override
   void dependencies() {

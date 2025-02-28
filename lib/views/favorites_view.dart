@@ -3,8 +3,7 @@ import 'package:get/get.dart';
 import '../controllers/cat_controller.dart';
 import '../models/cat_model.dart';
 
-/// FavoritesView는 GetView<CatController>를 상속받아,
-/// 즐겨찾기에 추가된 고양이 품종 목록을 표시하고, 각 항목을 삭제할 수 있는 화면입니다.
+//GetView<CatController>를 상속받음
 class FavoritesView extends GetView<CatController> {
   const FavoritesView({super.key});
 

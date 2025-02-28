@@ -13,7 +13,7 @@ class CatController extends GetxController {
   // 사용자가 즐겨찾기에 추가한 품종 목록
   var favorites = <CatModel>[].obs;
 
-  /// 사용자가 입력한 [breed]에 대해 The Cat API에서 정보를 가져옵니다.
+  //정보불러오기
   Future<void> fetchCatBreedInfo(String breed) async {
     isLoading.value = true;
     try {
@@ -33,13 +33,13 @@ class CatController extends GetxController {
     }
   }
 
-  /// 현재 검색 결과를 즐겨찾기에 추가합니다.
+  /// 검색 결과를 즐겨찾기에 추가
   void addCurrentToFavorites() {
     if (currentCatInfo.value.breed.isEmpty) return;
     favorites.add(currentCatInfo.value);
   }
 
-  /// 즐겨찾기 목록에서 특정 항목을 제거합니다.
+  /// 즐겨찾기 목록 제거
   void removeFavorite(CatModel cat) {
     favorites.remove(cat);
   }
