@@ -1,4 +1,3 @@
-// lib/bindings.dart
 import 'package:get/get.dart';
 import 'controllers/cat_controller.dart';
 

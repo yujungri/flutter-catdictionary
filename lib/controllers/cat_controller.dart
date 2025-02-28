@@ -1,4 +1,3 @@
-// lib/controllers/cat_controller.dart
 import 'package:get/get.dart';
 import '../models/cat_model.dart';
 import '../services/cat_api_service.dart';

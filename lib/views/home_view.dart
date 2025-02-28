@@ -1,4 +1,3 @@
-// lib/views/home_view.dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/cat_controller.dart';
